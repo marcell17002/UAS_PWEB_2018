@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* <a href=""><img src="image/right.jpg" class="rightarrow"/></a> 
+<a href=""><img src="image/left.jpg" class="leftarrow"/></a>
+*/
+header {
+    background-color: #43636e;
+    height: 70px;
+    background-size:  ;
+    background-position: center;
+
+}
+footer{
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #181818;
+   text-align: left;
+   padding-top: 2%;
+}
+.foot{
+  margin-left: 15%;
+}
+body{
+    background: white;
+}
+.main{
+    max-width: 100%;
+    margin: auto;
+    font-family: Century Gothic;
+}
+.main a{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent ;
+    transition: 0.6s ease;
+}
+
+a{
+    display: inline-block;
+}
+.main a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.main .active a{
+    background-color: #fff;
+    color: #000;
+}
+.input_data{
+    border: 2px solid #eaeaea;
+    border-radius: 2px;
+    height: 100%;
+    width: 100%;
+}
+form{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+input{
+    border: 1px solid #689AAB;
+    height: 35px;
+    width: 100%;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.text-header{
+    font-family: century gothic; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+.submit-button{
+    background-color: #b5d5e0;
+    border: none;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.submit-button:hover{
+    background-color: #43636e;
+    cursor: pointer;
+}

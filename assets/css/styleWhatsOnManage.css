@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #43636e;
+    height: 70px;
+    background-size:  ;
+    background-position: center;
+}
+footer{
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #181818;
+   text-align: left;
+   padding-top: 2%;
+}
+.foot{
+  margin-left: 15%;
+}
+.event-header{
+    background-color: #43636e;
+    height: 80px;
+    background-size:  ;
+    background-position: center;
+}
+.event-header .text-light{
+    color: white;
+    font-family: Century Gothic;
+    font-size: 1.2cm;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.event-header .search-container {
+  float: right;
+}
+.event-header .search-container input {
+  font-size: inherit;
+  border: 0.05cm solid #43636e;
+  border-radius: 0.2cm 0 0 0.2cm;
+  padding: 0.2cm 0.1cm;
+  margin-top: 25px;
+  width: 400px;
+}
+.search-box-button {
+  /*float: ri;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;*/
+  float: right;
+  font-size: inherit;
+  border: 0.05cm solid #43636e;
+  border-radius: 0 0.2cm 0.2cm 0;
+  background-color: white;
+  border-left: 0;
+  margin-right: 100px;
+  margin-top: 25px;
+  padding: 0.1cm 0.2cm;
+  color: #43636e;
+}.navbar{
+    max-width: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica;
+}
+.ul1{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    padding-right: 5%;
+}
+ul li{
+    display: inline-block;
+    font-size: 17px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent ;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+.main a{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent ;
+    transition: 0.6s ease;
+    font-size: 17px;
+    font-family: Arial, Helvetica;
+
+}   
+
+a{
+    display: inline-block;
+}
+
+
+.main a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+.main .active a{
+    background-color: #fff;
+    color: #000;
+}
+h1{
+    color: #1F4F82;
+    font-size: relative;
+    font-family: calibri;
+}
+h2{
+    color: #505050;
+    margin: 20px 0 20px 10px;
+}
+table{
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    background-color: white;
+    font-family: arial;
+}
+th{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #43636e;
+    font-color:black;
+  }
+
+/*
+363636
+2f2f2f
+b4bbb4
+*/
+td{
+  font-family: arial;
+  font-color: black;
+  color: black;
+}
+tr td a{
+    text-decoration: none;
+    color: red; 
+}
+
+tr td a:hover{
+    text-decoration: underline;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+    font-family: Century Gothic;
+}
+.boxes{
+    float: right;
+    width: 2cm;
+    height: 0.5cm;
+    margin: 20px 10px 0 0;
+}
+
+.mySlides {display: none}
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+.slide2{
+    float: left;
+    font-size: 0.4cm;
+    width: 100%;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.sblock_2{
+    float: left;
+    font-size: 0.4cm;
+    width: 150px;
+    position: absolute;
+}
+
+.sblock2{
+    float: left;
+    width: 100%;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 35%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+    background: rgba(0,0,0,0.5);
+    background-image: (image/black.jpg);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.link{
+    float: left;
+}
+.fixedwidth{
+    width:1300px;
+    margin: 0 auto;
+}
+.date{
+    font-weight: bold;
+    font-family: Utopia;
+}
+.newsitem{
+    position: relative;
+    text-align: justify;
+    width: 90%;
+    float: left;
+    font-size: 0.5cm;
+    font-family: calibri;
+}
+.textonimg{
+    text-align: justify;  
+    width: 100%;
+    margin-top: -20%;
+    position: relative;
+    background: rgba(0,0,0,0.5);
+    background-image: (image/black.jpg);
+    display: flex;
+    color: #fff;
+    font-size: relative;
+    font-family: calibri;
+}
+.textonimg2{
+    color: #D3D3D3;
+    text-decoration: none;
+}
+#content{
+    width: 100%;
+    color: #535353;
+    font-size: 0.5cm;
+}
+#slide{
+    background-color: #dce6e5;
+    font-family: calibri;
+    height: 30%;
+    top: 130px;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-gap: 30px;
+  margin-top: 3%;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#leftboxes{
+    float: left;
+    width: 35%;
+    margin-top: 3%;
+}
+.leftnews{
+    float: left;
+}
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    height: 150px;
+}
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}

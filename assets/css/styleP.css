@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* <a href=""><img src="image/right.jpg" class="rightarrow"/></a> 
+<a href=""><img src="image/left.jpg" class="leftarrow"/></a>
+*/
+header {
+    background-color: grey;
+    height: 100px;
+    background-size:  ;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent ;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+ul p a{
+    float: left;  
+    text-decoration: none; 
+    color: #1F4F82; 
+}
+
+ul p a:hover{
+    text-decoration: underline;
+}
+h1{
+	margin: 0;
+
+}
+
+.inputbox {
+	width: 40%;
+	background: grey;
+	color: #fff;
+	top: 70%;
+	left: 50%;
+	position: absolute;;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	font-family: Century Gothic;
+	padding: 10px 10px;
+}
+
+.inputbox table,tr,td,input[type="text"]{
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+    font-family: Century Gothic;
+}
