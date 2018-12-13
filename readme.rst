@@ -1,70 +1,34 @@
-###################
-What is CodeIgniter
-###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
 
-*******************
-Release Information
-*******************
+                                                             Media Kita 
+                                                   UAS Pemrograman Web 2018 Kelas B 
+                                                             
+############################################
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+  Nama Kelompok :
+      Marcell Antonius  140810170034
+      Sarah Hasna       140810170010
+      Iqbal Antoni      140810170054
+      Alfin Bilqisthi   140810170052
+      
+############################################
 
-**************************
-Changelog and New Features
-**************************
-
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Media kita merupakan sebuah sarana bagi mahasiswa untuk berbagi tentang event yang ada di kampus mereka . Konten yang kami buat tidak hanya sebagai sarana untuk ajang promosi saja namun dalam konten ini kami juga menwarkan sebagai pihak kedua dalam penjualan berbagai tiket di event yang dimiliki oleh kampus di web media kita . Tidak hanya isu yang sedang hangat diperbincangkan di kampus-kampus tapi dalam konten web ini kami jugaa menyediakan informasi” aktual terhadap kampus tersebut . CRUD dalam konten web ini terjadi ketika user ingin mendaftar , pembelian tiket (update data) , ketika ingin sharing konten . 
 
 *******************
-Server Requirements
-*******************
+Fitur - Fitur 
 
-PHP version 5.6 or newer is recommended.
+# Whats On 
+  Sebuah fitur untuk menambahkan wadah untuk menampilakn berita hangat atau sesuatu yang berkaitan dengan konten berita yang sedang atau akan diangkat oleh delegator dari kampus terentu . 
+  
+# Event 
+  Event merupakan sebuah wadah untuk upload sebuah event atau dengan katalain sebagai wadah untuk sharing konten acara atau publikasi event kepada khalayak umum . 
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
-
-************
-Installation
-************
-
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
-
-*******
-License
-*******
-
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
-
-*********
-Resources
-*********
-
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
-
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
-
-***************
-Acknowledgement
-***************
-
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+# Login
+  Fitur login ini berguna untuk delegator yang berasal dari kampus tertentu yang sudah memiliki autentikasi khusus . Authentikasi berasal dari kode yang dimilki oleh stiap kampus pada setiap pendaftaran . Fitur ini berguna untuk login tahap pertama dari bagian delegator agar dapat posting halaman berupa berita atau pun tiket nantinya . Dalam Login ini menampilkan nama dan npm yang berada setelah login . 
+  
+# Sign Up 
+  Sign up ini merupkan fitur pendaftaran dalam web Media Kita untuk setiap calon delegator yang memiliki kode Universitas yang berada pada setiap databse table Universitas . 
+  *******************
+  
+  
